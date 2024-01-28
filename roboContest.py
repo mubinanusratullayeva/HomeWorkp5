@@ -1,4 +1,5 @@
-numb = input('enter a positive number: ')
+# numb = input('enter a positive number: ')
+n = int(input('enter a number: '))
 
 
 #Koshi
@@ -48,4 +49,13 @@ class Match:
 
 match = Match()
 
-print(match.find_len_match(numb))
+# print(match.find_len_match(numb))
+
+
+
+#Isfandiyor algebrasi
+
+def f(x):
+    return x**5 + 8*(x**4) - 5*(x**3) + 3*(x**2) + x - 12
+
+print(f(n))
