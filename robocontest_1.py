@@ -41,8 +41,8 @@ from roboContest import n
 
 
 
-# task-5
-# Yig'indilar soni
+# task-4
+# Toshlar o'yini
 
 def winner(stone):
     if 1 <= stone <= (10**9):
