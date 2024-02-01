@@ -18,6 +18,24 @@ from roboContest import n
 
 
 
+
+
+# task-3
+# Toshlar o'yini
+
+# def winner(stone):
+#     if 1 <= stone <= (10**9):
+#         if stone % 2 == 0:
+#             return 'Second Player'
+#         else:
+#             return 'First Player'
+#
+# print(winner(n))
+#
+
+
+
+
 # task-4
 # Sovg'a
 
@@ -39,16 +57,7 @@ from roboContest import n
 
 
 
+# task-5
+# Yig'indilar soni
 
-
-# task-4
-# Toshlar o'yini
-
-def winner(stone):
-    if 1 <= stone <= (10**9):
-        if stone % 2 == 0:
-            return 'Second Player'
-        else:
-            return 'First Player'
-
-print(winner(n))
+print(int(input())//2+1)
